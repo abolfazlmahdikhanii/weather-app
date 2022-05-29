@@ -115,6 +115,8 @@ const convsrtTimeStampToDate = function(timestamp) {
     return day[0];
 };
 
+
+
 // change wether icon to animated icon
 const changeWeatherIcon = function(dis, info, type = "d") {
     if (dis == "Rain" && type == "d") return "../assets/images/rainy-2.svg";
